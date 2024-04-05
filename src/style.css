@@ -14,13 +14,77 @@ p {
   margin: 30px 50px;
 }
 
-.weather-app {
+footer {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.search-form {
+  text-align: center;
+  margin: 168px auto 55px;
+  max-width: 90%;
+}
+
+.search-input {
   background-color: #fde4cd;
+  border: none;
+  border-radius: 8px;
+  box-shadow: -7px -7px 8px rgba(255, 241, 229, 70%) inset,
+    7px 7px 8px rgb(219, 192, 168, 60%) inset;
+  color: #7d1e18;
+  height: 44px;
+  margin-right: 26px;
+  padding: 20px;
+  width: 499px;
+}
+
+::placeholder {
+  color: #7d4918;
+  font-size: 12px;
+  opacity: 50%;
+}
+
+.search-input:focus {
+  outline: none;
+  background-color: rgb(255, 234, 215);
+}
+
+.search-button {
+  background: linear-gradient(
+    150deg,
+    rgb(255, 234, 215) 0%,
+    rgb(255, 226, 199) 100%
+  );
+  border: none;
+  border-radius: 8px;
+  box-shadow: -7px -7px 8px rgba(255, 241, 229, 70%),
+    7px 7px 8px rgb(219, 192, 168, 60%);
+  color: #7d4918;
+  cursor: pointer;
+  font-size: 14px;
+  height: 44px;
+  width: 164px;
+}
+
+.search-button:hover {
+  background: linear-gradient(150deg, #fde4cd 0%, #fde4cd) padding-box,
+    linear-gradient(150deg, rgb(255, 234, 215) 0%, rgb(255, 226, 199) 100%)
+      border-box;
+  border: 6px solid transparent;
+  border-radius: 8px;
+  box-shadow: -7px -7px 8px rgba(255, 241, 229, 70%),
+    7px 7px 8px rgb(219, 192, 168, 60%),
+    -7px -7px 8px rgba(255, 241, 229, 70%) inset,
+    7px 7px 8px rgb(219, 192, 168, 60%) inset;
+}
+
+.weather-app {
+  background: linear-gradient(150deg, #fce5cf 0%, #fae0c7 100%);
   border-radius: 20px;
   box-shadow: -20px -20px 40px rgba(255, 241, 229, 70%),
     20px 20px 40px rgb(219, 192, 168, 60%);
   display: flex;
   height: 520px;
-  margin: 260px auto;
-  max-width: 774px;
+  margin: 0px auto;
+  width: 774px;
 }
