@@ -26,15 +26,30 @@
     </header>
     <div class="weather-app">
       <main>
-        <div>
-          <h1>BRUSSELS</h1>
-          <p>
-            Thursday 15:18, broken clouds
-            <br />
-            Humidity: 63%, Wind: 9,27km/h
-          </p>
+        <div class="weather-data">
+          <div>
+            <h1>BRUSSELS</h1>
+            <p>
+              <span class="current-conditions">
+                Thursday 15:18, broken clouds
+              </span>
+              <br />
+              <span class="current-conditions">Humidity: </span
+              ><span class="current-data">63%</span
+              ><span class="current-conditions">, Wind: </span
+              ><span class="current-data">9,27km/h</span>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span id="current-degrees">12°C</span> <br /><span
+              id="min-max-current-temperature"
+              ><span class="min-max-text">min </span
+              ><span class="min-max-degrees">8°C</span
+              ><span class="min-max-text"> | max</span>
+              <span class="min-max-degrees">17°C</span></span
+            >
+          </div>
         </div>
-        <div>🌤️ 12°C</div>
       </main>
     </div>
     <footer>

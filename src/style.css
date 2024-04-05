@@ -6,7 +6,8 @@ body {
 
 h1 {
   font-weight: 480;
-  font-size: 40px;
+  font-size: 50px;
+  line-height: 62px;
   margin: 62px 0px 0px 50px;
 }
 
@@ -91,12 +92,51 @@ footer {
 }
 
 .weather-app {
-  background: linear-gradient(150deg, #fce5cf 0%, #fae0c7 100%);
+  background: linear-gradient(150deg, #ffe7d1 50%, #fae0c7 100%);
   border-radius: 20px;
   box-shadow: -20px -20px 40px rgba(255, 241, 229, 70%),
     20px 20px 40px rgb(219, 192, 168, 60%);
-  display: flex;
   height: 520px;
   margin: 0px auto;
   width: 774px;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-temperature {
+  margin-right: 50px;
+  margin-top: 62px;
+  text-align: right;
+}
+
+#current-degrees {
+  line-height: 80px;
+  font-size: 100px;
+  font-weight: 500;
+}
+
+#min-max-current-temperature {
+  font-size: 14px;
+  line-height: 60px;
+}
+
+.min-max-degrees {
+  opacity: 100%;
+  font-weight: 500;
+}
+
+.min-max-text {
+  opacity: 64%;
+}
+
+.current-data {
+  opacity: 100%;
+  font-weight: 500;
+}
+
+.current-conditions {
+  opacity: 64%;
 }
