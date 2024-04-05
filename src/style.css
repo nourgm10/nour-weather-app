@@ -15,8 +15,20 @@ p {
 }
 
 footer {
+  font-size: 12px;
   text-align: center;
+  font-style: italic;
   margin-top: 55px;
+}
+
+.footer-links {
+  opacity: 100%;
+  color: #7d1e18;
+  font-weight: 500;
+}
+
+.footer-text {
+  opacity: 64%;
 }
 
 .search-form {
