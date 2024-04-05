@@ -1,0 +1,26 @@
+body {
+  background-color: #fde4cd;
+  color: #7d1e18;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-weight: 480;
+  font-size: 40px;
+  margin: 62px 0px 0px 50px;
+}
+
+p {
+  margin: 30px 50px;
+}
+
+.weather-app {
+  background-color: #fde4cd;
+  border-radius: 20px;
+  box-shadow: -20px -20px 40px rgba(255, 241, 229, 70%),
+    20px 20px 40px rgb(219, 192, 168, 60%);
+  display: flex;
+  height: 520px;
+  margin: 260px auto;
+  max-width: 774px;
+}
