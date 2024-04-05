@@ -113,14 +113,20 @@ footer {
 }
 
 #current-degrees {
+  display: flex;
   line-height: 80px;
   font-size: 100px;
   font-weight: 500;
 }
 
+#current-degrees-unit {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: -20px;
+}
+
 #min-max-current-temperature {
   font-size: 14px;
-  line-height: 60px;
 }
 
 .min-max-degrees {
