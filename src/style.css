@@ -142,25 +142,17 @@ footer {
   text-align: right;
 }
 
-#min-max-current-temperature {
-  display: flex;
-  font-size: 14px;
-}
-
-.min-max-degrees {
+#humidity {
   opacity: 100%;
   font-weight: 500;
 }
 
-.min-max-text {
-  opacity: 64%;
-}
-
-.current-data {
+#wind {
   opacity: 100%;
   font-weight: 500;
 }
 
 .current-conditions {
+  color: #7d1e18;
   opacity: 64%;
 }
