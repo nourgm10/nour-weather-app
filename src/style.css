@@ -118,17 +118,21 @@ footer {
 }
 
 .current-temperature {
+  display: flex;
   margin-right: 50px;
   margin-top: 62px;
   text-align: right;
 }
 
+.current-icon {
+  text-align: left;
+  font-size: 60px;
+}
 .current-degrees {
   display: flex;
   line-height: 80px;
   font-size: 100px;
   font-weight: 500;
-  margin-right: 40px;
 }
 
 .current-degrees-unit {
@@ -136,7 +140,6 @@ footer {
   font-size: 30px;
   font-weight: 300;
   text-align: right;
-  margin-top: -80px;
 }
 
 #min-max-current-temperature {
