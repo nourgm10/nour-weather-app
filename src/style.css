@@ -125,9 +125,10 @@ footer {
 }
 
 .current-icon {
-  text-align: left;
-  font-size: 60px;
+  width: 100px;
+  height: 100px;
 }
+
 .current-degrees {
   display: flex;
   line-height: 80px;
