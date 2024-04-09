@@ -91,6 +91,17 @@ footer {
     7px 7px 8px rgb(219, 192, 168, 60%) inset;
 }
 
+.search-button:active {
+  background-color: #fde4cd;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 7px 7px 8px rgb(219, 192, 168, 60%) inset,
+    -7px -7px 8px rgba(255, 241, 229, 70%) inset;
+  height: 44px;
+  width: 164px;
+  transition: all 200ms ease-in-out;
+}
+
 .weather-app {
   background: linear-gradient(150deg, #ffe7d1 50%, #fae0c7 100%);
   border-radius: 20px;
