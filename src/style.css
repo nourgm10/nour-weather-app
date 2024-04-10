@@ -79,7 +79,7 @@ footer {
   width: 164px;
 }
 
-.search-button:hover {
+.search-button:active {
   background: linear-gradient(150deg, #fde4cd 0%, #fde4cd) padding-box,
     linear-gradient(150deg, rgb(255, 234, 215) 0%, rgb(255, 226, 199) 100%)
       border-box;
@@ -91,22 +91,15 @@ footer {
     7px 7px 8px rgb(219, 192, 168, 60%) inset;
 }
 
-.search-button:active {
-  background-color: #fde4cd;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 7px 7px 8px rgb(219, 192, 168, 60%) inset,
-    -7px -7px 8px rgba(255, 241, 229, 70%) inset;
-  height: 44px;
-  width: 164px;
-  transition: all 200ms ease-in-out;
-}
-
 .weather-app {
-  background: linear-gradient(150deg, #ffe7d1 50%, #fae0c7 100%);
+  background: linear-gradient(
+    150deg,
+    rgb(255, 234, 215) 0%,
+    rgb(255, 226, 199) 100%
+  );
   border-radius: 20px;
-  box-shadow: -20px -20px 40px rgba(255, 241, 229, 70%),
-    20px 20px 40px rgb(219, 192, 168, 60%);
+  box-shadow: -7px -7px 8px rgba(255, 241, 229, 70%),
+    7px 7px 8px rgb(219, 192, 168, 60%);
   height: 520px;
   margin: 0px auto;
   width: 774px;
@@ -160,20 +153,26 @@ footer {
 
 .weather-forecast {
   display: flex;
-  padding-left: 88px;
-  padding-right: 88px;
-  margin-top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 110px;
   text-align: center;
 }
 
 .day-1 {
-  background: linear-gradient(150deg, #ffe7d1 50%, #fae0c7 100%);
-  border-radius: 20px;
+  background: linear-gradient(
+    150deg,
+    rgb(255, 234, 215) 0%,
+    rgb(255, 226, 199) 100%
+  );
+  border: none;
+  border-radius: 8px;
   box-shadow: -7px -7px 8px rgba(255, 241, 229, 70%),
     7px 7px 8px rgb(219, 192, 168, 60%);
   height: 129px;
   margin: 0px auto;
-  width: 89px;
+  padding-bottom: 8px;
+  width: 100px;
 }
 
 .forecast-day {
