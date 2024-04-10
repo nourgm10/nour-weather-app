@@ -179,16 +179,14 @@ footer {
   font-size: 16px;
   font-weight: 500;
   padding-top: 15px;
-  padding-bottom: 5px;
 }
 
 .forecast-icon {
-  padding: 5px;
+  width: 60%;
 }
 
 .forecast-temperature {
   font-size: 10px;
-  padding-top: 5px;
   padding-bottom: 15px;
 }
 
