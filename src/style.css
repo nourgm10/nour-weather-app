@@ -159,6 +159,9 @@ footer {
 }
 
 .weather-forecast {
+  display: flex;
+  padding-left: 88px;
+  padding-right: 88px;
   margin-top: 120px;
   text-align: center;
 }
@@ -171,8 +174,6 @@ footer {
   height: 129px;
   margin: 0px auto;
   width: 89px;
-  display: block;
-  text-align: center;
 }
 
 .forecast-day {

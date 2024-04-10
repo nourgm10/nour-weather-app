@@ -55,4 +55,39 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Thu", "Fri", "Sat", "Sun", "Mon"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+<div class="day-1">
+          <div class="forecast-day">${day}</div>
+          <img
+            src="https://img.icons8.com/ios/250/000000/sun.png"
+            alt=""
+            width="36"
+            class="forecast-icon"
+          />
+          <div class="forecast-temperature">
+            <div>
+              <span class="min-max-forecast">min </span
+              ><span id="min-forecast-temperature">8°C</span>
+            </div>
+            <div>
+              <span class="min-max-forecast">max </span
+              ><span id="max-forecast-temperature">17°C</span>
+            </div>
+          </div>
+        </div>`;
+  });
+
+  forecastElement.innerHTML = forecastHtml;
+}
+
 searchCity("Paris");
+displayForecast();
