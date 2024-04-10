@@ -27,29 +27,50 @@
       </form>
     </header>
     <div class="weather-app">
-      <main>
-        <div class="weather-data">
-          <div>
-            <h1 id="city"></h1>
-            <p>
-              <span class="current-conditions"
-                ><span id="time"></span>, <span id="weather-description"></span
-              ></span>
-              <br />
-              <span class="current-conditions">Humidity: </span
-              ><span id="humidity"></span
-              ><span class="current-conditions">, Wind: </span
-              ><span id="wind"></span>
-            </p>
-          </div>
-          <div class="current-temperature">
-            <div id="icon"></div>
-            <div class="current-degrees" id="current-degrees"></div>
-            <div class="current-degrees-unit">°C</div>
+      <div class="weather-data">
+        <div>
+          <h1 id="city"></h1>
+          <p>
+            <span class="current-conditions"
+              ><span id="time"></span>, <span id="weather-description"></span
+            ></span>
             <br />
+            <span class="current-conditions">Humidity: </span
+            ><span id="humidity"></span
+            ><span class="current-conditions">, Wind: </span
+            ><span id="wind"></span>
+          </p>
+        </div>
+        <div class="current-temperature">
+          <div id="icon"></div>
+          <div class="current-degrees" id="current-degrees"></div>
+          <div class="current-degrees-unit">°C</div>
+          <br />
+        </div>
+      </div>
+      <div class="weather-forecast">
+        <div class="column">
+          <div class="day-1">
+            <div class="forecast-day">Thu</div>
+            <img
+              src="https://img.icons8.com/ios/250/000000/sun.png"
+              alt=""
+              width="36"
+              class="forecast-icon"
+            />
+            <div class="forecast-temperature">
+              <div>
+                <span class="min-max-forecast">min </span
+                ><span id="min-forecast-temperature">8°C</span>
+              </div>
+              <div>
+                <span class="min-max-forecast">max </span
+                ><span id="max-forecast-temperature">17°C</span>
+              </div>
+            </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
     <footer>
       <span class="footer-text">This project was coded by</span>
