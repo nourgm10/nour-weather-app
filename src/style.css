@@ -100,7 +100,7 @@ footer {
   border-radius: 20px;
   box-shadow: -7px -7px 8px rgba(255, 241, 229, 70%),
     7px 7px 8px rgb(219, 192, 168, 60%);
-  height: 520px;
+  height: 440px;
   margin: 0px auto;
   width: 774px;
 }
@@ -108,12 +108,13 @@ footer {
 .weather-data {
   display: flex;
   justify-content: space-between;
+  margin-left: 30px;
 }
 
 .current-temperature {
   display: flex;
-  margin-right: 50px;
-  margin-top: 62px;
+  margin-right: 80px;
+  margin-top: 80px;
   text-align: right;
 }
 
@@ -125,7 +126,7 @@ footer {
 .current-degrees {
   display: flex;
   line-height: 80px;
-  font-size: 100px;
+  font-size: 120px;
   font-weight: 500;
 }
 
@@ -134,6 +135,7 @@ footer {
   font-size: 30px;
   font-weight: 300;
   text-align: right;
+  margin-top: -6px;
 }
 
 #humidity {
@@ -155,7 +157,7 @@ footer {
   display: flex;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 110px;
+  margin-top: 30px;
   text-align: center;
 }
 
